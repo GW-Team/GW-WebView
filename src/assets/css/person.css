@@ -1,0 +1,56 @@
+.person-detail+ul.post-list {
+  background-color: #FFFFFF;
+  min-height: auto;
+  padding-bottom: 1rem;
+}
+
+.person-detail {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.person-detail .avatar {
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.person-detail .avatar>* {
+  display: block;
+}
+
+.person-detail .avatar span {
+  font-size: 1.5em;
+  color: #333333;
+  margin-bottom: 1rem;
+}
+
+.person-detail ul.status {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.person-detail ul.status li {
+  flex: auto;
+  min-width: 25%;
+  display: inline-flex;
+}
+
+.person-detail ul.status li a {
+  height: 4rem;
+  color: #333333;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.person-detail ul.status li a .NO {
+  color: #808080;
+}
+
+.person-detail .board {
+  padding: 1rem 0;
+  border-bottom: 1px solid #CCCCCC;
+}

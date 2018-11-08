@@ -1,0 +1,236 @@
+.login-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: url("../images/login-background.png");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header.logo-display {
+  display: block;
+  text-align: center;
+}
+
+header.logo-display img {
+  max-width: 256px;
+  width: 40vw;
+}
+
+section.login-box form {
+  margin: 2rem;
+  padding: 1rem;
+  padding-top: 2rem;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+section.login-box>form>.row {
+  margin-bottom: auto;
+}
+
+section.login-box>form .row .input-field {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+section.login-box form i {
+  color: #9e9e9e;
+}
+
+section.login-box form i.select-i {
+  left: 10px;
+}
+
+section.login-box form input {
+  box-shadow: none !important;
+}
+
+section.login-box form button {
+  padding: 0.8rem 2.4rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #00A99D;
+  color: #FFFFFF;
+}
+
+footer.extend-action {
+  text-align: center;
+}
+
+footer.extend-action>ul>li {
+  padding: 0.2rem 0;
+}
+
+footer.extend-action>ul>li a {
+  color: #FFFFFF;
+}
+
+/* User list */
+
+ul.user-list {
+  margin: 0.5rem;
+}
+
+ul.user-list li>a {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0.5rem;
+  border-bottom: 1px solid #B3B3B3;
+}
+
+ul.user-list .avatar {
+  display: inline-flex;
+}
+
+ul.user-list .avatar img {
+  width: 48px;
+  height: 48px;
+}
+
+ul.user-list .chat-detail {
+  margin-left: 1rem;
+  color: #333333;
+  font-size: 1.2rem;
+}
+
+/* User detail */
+
+.user-detail .header {
+  position: relative;
+}
+
+.user-detail .header .background img {
+  width: 100%;
+}
+
+.user-detail .header .avatar {
+  position: absolute;
+  bottom: -50px;
+  width: 100%;
+  text-align: center;
+}
+
+.user-detail .header .avatar img {
+  width: 100px;
+}
+
+.user-detail .content {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.user-detail .content .title {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.user-detail .content span {
+  color: #707070;
+}
+
+.user-detail ul.footer {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  margin-top: 1rem;
+  border-top: #C9C9C9 solid 1px;
+}
+
+.user-detail ul.footer li {
+  flex: auto;
+}
+
+.user-detail ul.footer li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+}
+
+.user-detail ul.footer li a i {
+  color: #707070;
+  font-size: 2em;
+}
+
+/* User Add */
+
+form.search-member {
+  padding: 0.5rem;
+}
+
+ul.user-add {
+  margin: 0.5rem;
+}
+
+ul.user-add li>div {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #B3B3B3;
+}
+
+ul.user-add .avatar {
+  display: inline-flex;
+}
+
+ul.user-add .avatar img {
+  width: 48px;
+  height: 48px;
+}
+
+ul.user-add .chat-detail {
+  margin-left: 1rem;
+  color: #333333;
+  font-size: 1.2rem;
+}
+
+ul.user-add .action {
+  position: absolute;
+  right: 0;
+}
+
+/* Group list */
+
+ul.group-list {
+  margin: 0.5rem;
+}
+
+ul.group-list li {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0.5rem;
+  border-bottom: 1px solid #B3B3B3;
+  position: relative;
+}
+
+ul.group-list .avatar {
+  display: inline-flex;
+}
+
+ul.group-list .avatar img {
+  width: 48px;
+  height: 48px;
+}
+
+ul.group-list .chat-detail {
+  margin-left: 1rem;
+  color: #333333;
+  font-size: 1.2rem;
+}
+
+ul.group-list .action {
+  position: absolute;
+  right: 0.5rem;
+}

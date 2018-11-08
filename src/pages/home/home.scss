@@ -1,8 +1,19 @@
 page-home {
     .bg-image{
-        background-image: url('../assets/imgs/bg.png');
+        background-image: url('../../assets/images/login-background.png');
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
+        background-size: cover;
     }
+
+    .login-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 0;
+        min-width: 100vw;
+        min-height: 100vh;
+        
+      }
 }
+
