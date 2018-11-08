@@ -23,15 +23,15 @@ export class HomePage {
         enableViewportScale: 'no',
         fullscreen: 'yes'
       }
-      /*
-      let browser = this.inAppBrowser.create('https://gowhere-0107402.appspot.com/users/sign_in','_self',options)
+      
+      let browser = this.inAppBrowser.create('https://gowhere.life','_self',options)
 
       browser.on('exit').subscribe((event: InAppBrowserEvent) => {
         platform.exitApp();
       });
 
       browser.show();
-      */
+      
     });
 
     //this.openWebpage("https://ionicframework.com/docs/native/in-app-browser/")
