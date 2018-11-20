@@ -29,5 +29,6 @@ import { HomePage } from '../pages/home/home';
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     InAppBrowser
   ]
+  
 })
 export class AppModule {}

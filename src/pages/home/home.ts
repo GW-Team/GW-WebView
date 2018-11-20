@@ -34,6 +34,7 @@ export class HomePage {
       
     });
 
+    
     //this.openWebpage("https://ionicframework.com/docs/native/in-app-browser/")
   }
 
